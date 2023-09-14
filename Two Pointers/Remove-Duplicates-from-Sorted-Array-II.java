@@ -13,6 +13,7 @@ class Solution {
             while(l<nums.length && nums[l]==nums[r-1])
             {l++;}
         }
+
         return r;
     }
 }
